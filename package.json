@@ -1,21 +1,33 @@
+// {
+  // "name": "mongooseapp",
+  // "version": "1.0.0",
+  // "description": "",
+  // "main": "index.js",
+  // "scripts": {
+  //   "test": "echo \"Error: no test specified\" && exit 1"
+  // },
+  // "repository": {
+  //   "type": "git",
+  //   "url": "git+https://github.com/DFlint1/mongooseapp.git"
+  // },
+  // "author": "",
+  // "license": "ISC",
+  // "bugs": {
+  //   "url": "https://github.com/DFlint1/mongooseapp/issues"
+  // },
+  // "homepage": "https://github.com/DFlint1/mongooseapp#readme",
 {
   "name": "mongooseapp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DFlint1/mongooseapp.git"
-  },
+
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DFlint1/mongooseapp/issues"
-  },
-  "homepage": "https://github.com/DFlint1/mongooseapp#readme",
   "dependencies": {
     "body-parser": "^1.17.1",
     "cheerio": "^0.22.0",
