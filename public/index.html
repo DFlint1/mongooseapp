@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mongo Scraper</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+     background-color: black;
+     color: white;
+      /*color: #f5f6f7;*/
+  }
+  
+  /*p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 {
+      background-color: #1abc9c; /* Green */
+     /* color: #ffffff;
+  }*/
+  /*.bg-2 {
+      background-color: #474e5d; *//* Dark Blue */
+/*      color: #ffffff;
+  }
+  .bg-3 {
+      background-color: #ffffff;*/ /* White */
+     /* color: #555555;
+  }
+  .bg-4 {
+      background-color: #2f2f2f; *//* Black Gray */
+      /*color: #fff;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;*/
+      /*color: black;*/
+ /* }*/
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+  .modal-title {
+    color: black;
+  }
+  .modal-body {
+    color: black;
+    text-align: center;
+  }
+  .footer {
+    color:orange;
+  }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Mongo Scraper</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html">Saved Articles</a></li>
+        <li><a href="#" button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Scrape New Articles</a></li>
+      </ul>
+    </div>
+    <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Article Scraper</h4>
+        </div>
+        <div class="modal-body">
+          <p>You have 20 new articles!</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+</nav>
+<!-- <div class="container-fluid bg-1 text-center">
+  <h3 class="margin"></h3>
+   <img src="assets/images/newspaper.jpg" class="img-responsive img-circle margin" style="display:inline" alt="newspaper" width="350" height="350">
+  <h3></h3>
+</div> -->
+<div id="wrapper">
+      <h1>Note Scraper</h1>
+      <h2><i>Here are you some articles as you wish!</i></h2>
+      <div id="articles"></div>
+      <div id="notes"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="app.js"></script>
+  <!-- </body>
+</html> -->
+
+
+  <!--  {{{ body }}}  -->
+
+<div class="footer">
+   <hr>
+   © Copyright 2017, MongooseApp
+</div>
+
+
+
+</body>
+</html>
+ 
