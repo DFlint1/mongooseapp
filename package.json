@@ -1,21 +1,3 @@
-// {
-  // "name": "mongooseapp",
-  // "version": "1.0.0",
-  // "description": "",
-  // "main": "index.js",
-  // "scripts": {
-  //   "test": "echo \"Error: no test specified\" && exit 1"
-  // },
-  // "repository": {
-  //   "type": "git",
-  //   "url": "git+https://github.com/DFlint1/mongooseapp.git"
-  // },
-  // "author": "",
-  // "license": "ISC",
-  // "bugs": {
-  //   "url": "https://github.com/DFlint1/mongooseapp/issues"
-  // },
-  // "homepage": "https://github.com/DFlint1/mongooseapp#readme",
 {
   "name": "mongooseapp",
   "version": "1.0.0",
@@ -25,7 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-
   "author": "",
   "license": "ISC",
   "dependencies": {
