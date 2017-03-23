@@ -1,3 +1,30 @@
+// Routes 
+
+
+// directed to main index page ==================================
+  //seeker login
+router.get("/index", function(req, res) {
+  // 
+    res.render("index");
+   
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Grab the articles as a json
 $.getJSON("/articles", function(data) {
   // For each one
