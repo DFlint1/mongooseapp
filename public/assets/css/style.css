@@ -1,0 +1,60 @@
+#backbone {
+  background-color: #1abc9c;
+}
+.jumbotron {
+  background-image: url(../images/newspaper6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 0px;
+  padding: 5em inherit;
+  padding-top: 70%
+  padding-bottom: 20%;
+  color: white;
+}
+.container {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+     background-color: yellow;
+     color: black;
+      /*color: #f5f6f7;*/
+  }
+  
+  
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+  .modal-title {
+    color: #FFB6C1;
+  }
+  .modal-body {
+    color: black;
+    text-align: center;
+  }
+  .footer {
+    color:orange;
+  }
+
+  img {
+    width:10%;
+    height: 10%;
+  }
+
+  #input-box {
+    color: black;
+  }
+
+  #note-box {
+    color: black;
+    text-align: center;
+  }
+
+  
