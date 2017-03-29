@@ -53,10 +53,10 @@ app.use(router);
 
 // Database configuration with mongoose
 mongoose.connect
-// ('mongodb://heroku_7r68s1pw:2i8gl2ura1g3sed9dannv1fnsn@ds137220.mlab.com:37220/heroku_7r68s1pw');
+('mongodb://heroku_7r68s1pw:2i8gl2ura1g3sed9dannv1fnsn@ds137220.mlab.com:37220/heroku_7r68s1pw');
 // If deployed, use the deployed database. Otherwise use the local mongoHeadlines database
 var db = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
-// ("mongodb://localhost/week18day3mongoose");
+// 
 // Connect mongoose to our database
 mongoose.connect(db, function(error) {
   // Log any errors connecting with mongoose
